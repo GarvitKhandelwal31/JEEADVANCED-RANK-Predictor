@@ -27,11 +27,6 @@ except:
 # Load predictor
 with open("jee_predictor.pkl", "rb") as f:
     predictor = pickle.load(f)
-st.markdown("""
-    <meta name="description" content="Best JEE Advanced Rank Predictor using real data. Estimate your JEE rank by category and score.">
-    <meta name="keywords" content="jee advanced, rank predictor, jee rank calculator, best jee predictor, jee category rank, jee advanced 2025">
-    <meta name="author" content="Your Name">
-""", unsafe_allow_html=True)
 
 
 
@@ -39,7 +34,7 @@ st.markdown("""
 # ----------------------- PAGE CONFIG ---------------------------
 
 
-st.set_page_config(page_title="Best JEE Advanced Rank Predictor", page_icon="📊")
+st.set_page_config(page_title="Best JEE Advanced Rank Predictor", page_icon="📊",layout="wide)
 
 
 # Hide default Streamlit UI and set background/theme
