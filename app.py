@@ -33,8 +33,14 @@ st.markdown("""
     <meta name="author" content="Your Name">
 """, unsafe_allow_html=True)
 
+
+
+
 # ----------------------- PAGE CONFIG ---------------------------
-st.set_page_config(page_title="JEE Advanced Predictor", page_icon="📊", layout="wide")
+
+
+st.set_page_config(page_title="Best JEE Advanced Rank Predictor", page_icon="📊")
+
 
 # Hide default Streamlit UI and set background/theme
 theme_override = """
