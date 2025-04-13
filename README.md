@@ -8,7 +8,7 @@ Predicts Common Rank List (CRL) and category-wise ranks (GEN-EWS, OBC-NCL, SC, S
 
 Accepts total marks, category, subject-wise marks, and paper difficulty
 
-Uses real JEE Advanced data from 2016 to 2022
+Uses real JEE Advanced data from 2016 to 2024
 
 Beautiful UI with Lottie animations
 
