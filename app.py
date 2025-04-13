@@ -23,7 +23,8 @@ try:
 except:
     # We'll inject CSS directly instead
     pass
-
+class JEERankPredictor:
+    pass
 # Load predictor
 with open("jee_predictor.pkl", "rb") as f:
     predictor = pickle.load(f)
