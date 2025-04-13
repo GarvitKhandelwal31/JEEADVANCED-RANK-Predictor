@@ -34,7 +34,7 @@ with open("jee_predictor.pkl", "rb") as f:
 # ----------------------- PAGE CONFIG ---------------------------
 
 
-st.set_page_config(page_title="Best JEE Advanced Rank Predictor", page_icon="📊",layout="wide)
+st.set_page_config(page_title="Best JEE Advanced Rank Predictor", page_icon="📊",layout="wide")
 
 
 # Hide default Streamlit UI and set background/theme
